@@ -1,0 +1,56 @@
+*{
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box;
+   font-family: 'Poppins';
+}
+
+header{
+   width: 100%;
+   height: 100vh;
+   background : url(https://images.unsplash.com/photo-1682687220499-d9c06b872eee?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+   background-size: cover;
+}
+
+nav{
+   width: 100%;
+   height: 100px;
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+   font-size: 1.1em;
+}
+
+nav .logo{
+   font-weight: bold;
+   font-size: 1.3em;
+}
+
+nav .menu a{
+   padding: 0px 10px;
+   text-decoration: none;
+   color: black;
+}
+
+nav .menu a:hover{
+   font-weight: bolder;
+   color: red;
+   transition: .3s;
+}
+
+nav .button{
+   padding: 10px;
+   background:gray;
+   color: white;
+   font-weight: bold;
+   border-radius: 11px;
+}
+
+nav .button:hover{
+   color: white;
+   background: brown;
+   transform: scale(1.1);
+   transition: .3s;
+}
+
+
